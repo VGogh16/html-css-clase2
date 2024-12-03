@@ -1,37 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: halloween;
+    src: url("./Lacquer/Lacquer-Regular.ttf");
+}
+
+body{
+    background-color: rgb(235, 225, 225);
+}
 
 h1{
-    background-color: deeppink;
-    margin: 10px;
+    background-color:#663399;
+    margin:10px;
     padding: 10px;
-    border: solid rgb(38,255,0);
-    color: aliceblue;
+    border: solid rgb(38, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    background-color: rgb(219, 97, 162);
+}
+
+main section{
+    background-color: red;
+}
+
+section{
+    background-color:#0444b4;
+    width: 1150px;
+    height: 456px;
+}
+
+.producto{
+    background-color: rgb(6, 97, 67);
+}
+
+#oferta{
+    background-color: rgb(243, 8, 8);
 }
 
 
+div{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 0 ;
+    margin: 0;
+    overflow: hidden;
+}
 
-section {
-    background-color: #0444b4;
-    width: 1400px;
+h2{
+    font-family: "Mountains of Christmas", serif;
+}
+
+p{
+    color:aliceblue;
+    font-family: "Edu AU VIC WA NT Dots";
+}
+
+div img{
+    width: 550px;
     height: 466px;
-
-}
-
-
-section img{
-    width: 100%;
-    height: 100%;
     object-fit: contain;
 }
-figure{
-    display:inline-block;
-    color: white;
-    text-align: center;
-    font-family:  Helvetica, sans-serif;
-    width: 600px;
-    overflow: hidden;
 
+#izquierda{
+padding: 0px 20px 160px 20px;
 }
 
-p {
-    margin-bottom: 148px;
+#derecha{
+    padding: 0px 0px 0px 80px;
+}
+
+#izquierda_dos{
+padding: 0px 20px 160px 20px;;
+}
+#derecha_dos{
+    padding: 0px 0px 0px 80px;
 }
